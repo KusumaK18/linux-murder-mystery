@@ -6,8 +6,11 @@ The thief left a message - but it's buried inside a file!
 
 Run these commands:
 mkdir -p /mystery/room2
+
 echo "The culprit is... keep looking!" > /mystery/room2/note.txt
+
 echo "Suspect: MR. GREP" >> /mystery/room2/note.txt
+
 echo "Alibi: was editing files all night" >> /mystery/room2/note.txt
 
 Now search for the word **"Suspect"** inside the file!
